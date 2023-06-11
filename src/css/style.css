@@ -19,3 +19,17 @@ body {
     min-height: 30vh;
     color: #131313;
 }
+
+.cv-left a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cv-left .contacts-block {
+    line-height: 175%;
+    list-style-type: none;
+}
+
+.cv-left .adress {
+    font-style: italic;
+}
