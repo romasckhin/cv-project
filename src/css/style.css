@@ -26,11 +26,17 @@ body {
     text-decoration: none;
 }
 
-.cv-left .contacts-block {
+.bi {
+    margin-right: 5px;
+}
+
+.contacts-block {
     line-height: 175%;
     list-style-type: none;
     padding-left: 0px;
+    text-align: center
 }
+
 
 .photo-block img {
     display: block;
@@ -59,7 +65,7 @@ article {
 }
 
 .company-name i {
-    font-style: .8rem;
+    font-size: .8rem;
     font-family: Arial, sans-serif;
     text-transform: none;
 }
@@ -101,6 +107,10 @@ article {
     .cv-left ul {
         line-height: 150%;
         padding-left: 25px;
+    }
+
+    .contacts-block li a {
+        font-size: 13px;
     }
 }
 
